@@ -5,10 +5,8 @@
 }
 
 body {
-    background: #f1f1f1;
     color: black;
     background-color: #f1f1f1;
-    font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -91,7 +89,7 @@ hr {
 .bienvenida {
     width: 100%;
     height: 550px;
-    background: url('./Imagenes/BienvenidaCaballos2.jpg') no-repeat center center/cover;
+    background: url('./Imagenes/bienvenidaCaballos2.jpg') no-repeat center center/cover;
     padding: 50px;
     margin-bottom: 25px;
     display: flex;
@@ -104,7 +102,6 @@ hr {
 .btn {
     cursor: pointer;
     display: inline-block;
-    border: 0;
     font-weight: bold;
     padding: 10px 20px;
     background: #262626;
@@ -131,35 +128,7 @@ hr {
     margin: 10px 0;
 }
 
-.grupo1 {
-    background: white;
-}
-
-.grupo2 {
-    background: white;
-}
-
-.grupo3 {
-    background: white;
-}
-
-.grupo4 {
-    background: white;
-}
-
-.grupo5 {
-    background: white;
-}
-
-.grupo6 {
-    background: white;
-}
-
-.grupo7 {
-    background: white;
-}
-
-.grupo8 {
+.card {
     background: white;
 }
 
@@ -223,7 +192,7 @@ hr {
 
 .social p {
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
